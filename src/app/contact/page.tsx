@@ -15,7 +15,7 @@ const Page = () => {
           src="/Images/shopbanner.png"
           width={1280}
           height={100}
-          className="absolute w-full h-full  "
+          className="absolute w-full h-full"
           alt="banner"
         />
         <div className="flex justify-center items-center flex-col h-full z-50 relative">

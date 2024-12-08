@@ -4,16 +4,16 @@ import Image from 'next/image'
 const Hero = () => {
   return (
 
-    <div className='flex gap-[5px] bg-[#FBEBB5] w-[1280px] h-[600px] justify-end'>
+    <div className='flex gap-[5px] bg-[#FBEBB5] w-[1280px] h-[600px]'>
      <div className='w-[350px] h-[265px] mt-[200px] ml-[300px]'>
-      <h1 className='w-[350px] h-[176px] font-medium font-Poppins text-[54px]'>
+      <h1 className='w-[450px] h-[176px] font-medium font-Poppins text-[54px] pl-[50px]'>
       Rocket single seater </h1>
-      <p className='w-[160px] mt-[10px] h-[50px] font-normal text-[30px] font-Poppins'>Shop Now</p>
-      <div className='w-[140px] h-[2px] bg-black mt-[0px]'></div>
+      <p className='w-[200px] mt-[10px] h-[50px] font-normal text-[30px] font-Poppins pl-[50px]'>Shop Now</p>
+      <div className='w-[140px] h-[2px] bg-black ml-[50px]'></div>
 
       </div>
-      <div>
-        <Image src='/images/singleseater.png' alt='seater image' width='500' height='600' className='mr-[80px]'/>
+      <div className='mb-[50px]'>
+        <Image src='/images/singleseater.png' alt='seater image' width='500' height='400' className='mr-[80px]'/>
       </div>
     </div>
 
