@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Hero = () => {
   return (
 
-    <div className='flex gap-[5px] bg-[#FBEBB5] w-[1280px] h-[600px]'>
+    <div className='flex gap-[20px] bg-[#FBEBB5] w-[1280px] h-[600px]'>
      <div className='w-[350px] h-[265px] mt-[200px] ml-[300px]'>
       <h1 className='w-[450px] h-[176px] font-medium font-Poppins text-[54px] pl-[50px]'>
       Rocket single seater </h1>
@@ -13,7 +13,7 @@ const Hero = () => {
 
       </div>
       <div className='mb-[50px]'>
-        <Image src='/images/singleseater.png' alt='seater image' width='500' height='400' className='mr-[80px]'/>
+        <Image src='/images/singleseater.png' alt='seater image' width='500' height='400'/>
       </div>
     </div>
 
