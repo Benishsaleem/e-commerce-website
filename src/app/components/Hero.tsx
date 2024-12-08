@@ -4,8 +4,8 @@ import Image from 'next/image'
 const Hero = () => {
   return (
 
-    <div className='flex gap-[20px] bg-[#FBEBB5] w-[1280px] h-[600px]'>
-     <div className='w-[350px] h-[265px] mt-[200px] ml-[300px]'>
+    <div className='flex gap-[40px] bg-[#FBEBB5] w-[1280px] h-[600px]'>
+     <div className='w-[350px] h-[265px] mt-[200px] ml-[200px]'>
       <h1 className='w-[450px] h-[176px] font-medium font-Poppins text-[54px] pl-[50px]'>
       Rocket single seater </h1>
       <p className='w-[200px] mt-[10px] h-[50px] font-normal text-[30px] font-Poppins pl-[50px]'>Shop Now</p>
