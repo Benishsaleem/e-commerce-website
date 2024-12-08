@@ -131,8 +131,8 @@ export const Hero2 = () => {
           )}
           export const Hero6 = () => {
             return (
-              <div className='w-[1280px] h-[400px] bg-white'>
-                <Image src='/Images/bottom1.png' alt='bottom picture' width='1280' height='400'/>
+              <div className='w-[1280px] h-[500px] bg-white'>
+                <Image src='/Images/bottom1.png' alt='bottom picture' width='1280' height='250'/>
 
               </div>
             )

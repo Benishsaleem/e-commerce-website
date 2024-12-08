@@ -7,7 +7,6 @@ import { Hero4 } from "./components/Hero";
 import { Hero5 } from "./components/Hero";
 import { Hero6 } from "./components/Hero";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
 export default function Home() {
   return ( <div>
     <Header/>
@@ -17,7 +16,6 @@ export default function Home() {
     <Hero4/>
     <Hero5/>
     <Hero6/>
-    <Contact/>
     <Footer/>
   </div>
   );

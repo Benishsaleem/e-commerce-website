@@ -1,22 +1,22 @@
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Image from "next/image";
 import React from "react";
 import { IoChevronForwardSharp } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdAccessTimeFilled } from "react-icons/md";
-const Contact = () => {
+const Page = () => {
   return (
     <div>
       <Header />
       <div className="h-[313px] w-full relative ">
         <Image
           src="/Images/shopbanner.png"
-          width={1440}
+          width={1280}
           height={100}
           className="absolute w-full h-full  "
-          alt=""
+          alt="banner"
         />
         <div className="flex justify-center items-center flex-col h-full z-50 relative">
           <h2 className="text-[40px] font-poppins font-bold text-center">
@@ -148,5 +148,5 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Page;
 
