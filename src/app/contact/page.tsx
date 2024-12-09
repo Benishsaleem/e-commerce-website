@@ -6,7 +6,7 @@ import { IoChevronForwardSharp } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdAccessTimeFilled } from "react-icons/md";
-const Page = () => {
+const page = () => {
   return (
     <div>
       <Header />
@@ -148,5 +148,5 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default page;
 

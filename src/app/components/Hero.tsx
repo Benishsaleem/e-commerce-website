@@ -5,16 +5,16 @@ import Image from 'next/image'
 const Hero = () => {
   return (
 
-    <div className='flex gap-[40px] bg-[#FBEBB5] w-[1280px] h-[600px]'>
-     <div className='w-[350px] h-[265px] mt-[200px] ml-[200px]'>
+    <div className='flex gap-[40px] bg-[#FBEBB5] w-full relative h-[600px]'>
+     <div className='w-[350px] h-[265px] mt-[200px] ml-[350px]'>
       <h1 className='w-[450px] h-[176px] font-medium font-Poppins text-[54px] pl-[50px]'>
       Rocket single seater </h1>
       <p className='w-[200px] mt-[10px] h-[50px] font-normal text-[30px] font-Poppins pl-[50px]'>Shop Now</p>
       <div className='w-[140px] h-[2px] bg-black ml-[50px]'></div>
 
       </div>
-      <div className='mb-[50px]'>
-        <Image src='/Images/singleseater.png' alt='seater image' width='500' height='400'/>
+      <div>
+        <Image src='/Images/singleseater.png' alt='seater image' width='500' height='600'/>
       </div>
     </div>
 
@@ -25,7 +25,7 @@ export default Hero
 
 export const Hero2 = () => {
     return (
-        <div className='bg-[#ffefef] w-[1280px] h-[550px]'>
+        <div className='bg-[#ffefef] w-full relative h-[550px]'>
             <div className='flex gap-[120px] justify-end pt-[60px] pr-[150px]'>
 
             <Image src='/Images/table1.png' alt='table' width='400' height='200'/>
@@ -46,7 +46,7 @@ export const Hero2 = () => {
             </div>
           )}
           export const Hero3 = () => {
-            return ( <div className='w-[1280px] h-[600px] bg-[#FFFFFF]'>
+            return ( <div className='w-full relative h-[600px] bg-[#FFFFFF]'>
               <div className='text-center'>
                 <h1 className='pt-[30px] font-medium font-Poppins text-black text-[25px]'>Top Picks For You</h1>
                 <p className=' mb-[4px] font-medium font-Poppins text-[#9F9F9F] text-[12px]'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
@@ -61,8 +61,7 @@ export const Hero2 = () => {
               <div>
                 <p className='font-Poppins font-medium text-[12px] mb-[2px]'>Trenton modular sofa_3</p>
                 <h2>Rs. 25,000.00</h2>
-              </div>
-              <div>
+              </div>              <div>
                 <p className='font-Poppins font-medium text-[12px] mb-[2px]'>Granite dining table with dining chair</p>
                 <h2>Rs. 25,000.00</h2>
               </div>
@@ -83,7 +82,7 @@ export const Hero2 = () => {
                )}
             export const Hero4 = () => {
               return (
-              <div className='w-[1280px] h-[700px] bg-[#FFF9E5]'>
+              <div className='w-full relative h-[700px] bg-[#FFF9E5]'>
                 <div className='flex'>
                 <div className='flex pt-[50px] pl-[50px] pr-[50px]'>
                   <Image src='/Images/sofaset1.png' alt='sofa set' width='750' height='550'/>
@@ -99,12 +98,12 @@ export const Hero2 = () => {
          )}
          export const Hero5 = () => {
           return (
-            <div className='w-[1280px] h-[600px] bg-[#FFFFFF] text-center'>
+            <div className='w-full relative h-[600px] bg-[#FFFFFF] text-center'>
               <div>
                 <h1 className='pt-[30px] font-medium font-Poppins text-black text-[25px]'>Our Blogs</h1>
                 <p className=' mb-[4px] font-medium font-Poppins text-[#9F9F9F] text-[12px]'>Find a bright ideal to suit your taste with our great selection</p>
               </div>
-              <div className='flex gap-[40px] pl-[150px] pr-[50px] pt-[30px]'>
+              <div className='flex gap-[40px] pl-[200px] pr-[50px] pt-[30px]'>
                <Image src='/Images/Rectangle1.png' alt='lap1' width='300' height='300'/>
                <Image src='/Images/Rectangle2.png' alt='lap2' width='300' height='300'/>
                <Image src='/Images/Rectangle3.png' alt='lap3' width='300' height='300'/>
@@ -132,8 +131,8 @@ export const Hero2 = () => {
           )}
           export const Hero6 = () => {
             return (
-              <div className='w-[1280px] h-[500px] bg-white'>
-                <Image src='/Images/bottom1.png' alt='bottom picture' width='1280' height='250'/>
+              <div className='w-full relative h-[500px] bg-white'>
+                <Image src='/Images/bottom1.png' alt='bottom picture' width='1440' height='250'/>
 
               </div>
             )

@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='w-[1280px] h-[400px]'>
-    <div className='flex gap-[100px] justify-items-center ml-[70px] ]'>
+    <div className='flex gap-[150px] ml-[70px] ]'>
       <div>
       <p className='font-Poppins font-medium text-[10px] pt-[120px] w-[180px] h-[60px] text-[#9F9F9F]'>400 University Drive Suite 200 Coral Gables,</p>
       <p className='font-Poppins font-medium text-[10px] pt-[30px] w-[100px] h-[60px] text-[#9F9F9F]'>FL 33134 USA</p>
@@ -28,8 +28,8 @@ const Footer = () => {
       <div className='font-Poppins font-medium text-[10px] underline pt-[80px] w-[40px] h-[60px] text-black'>Subscribe</div>
       
     </div>
-    <div className='w-[1150px] ml-[70px] pl-[100px] h-[0.5px] bg-[#9F9F9F]'></div>
-    <div className='font-Poppins ml-[70px] font-medium text-[11px] pt-[20px] w-[300px] h-[60px] text-black'>2022 Meubel House. All rights reverved</div>
+    <div className='w-[1270px] ml-[70px] pl-[100px] h-[0.5px] bg-[#9F9F9F]'></div>
+    <div className='font-Poppins ml-[70px] font-medium text-[11px] pt-[20px] w-[300px] relative h-[60px] text-black'>2022 Meubel House. All rights reverved</div>
     </div>
   )
 }
