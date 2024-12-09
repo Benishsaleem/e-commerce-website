@@ -14,7 +14,7 @@ const Hero = () => {
 
       </div>
       <div className='mb-[50px]'>
-        <Image src='/images/singleseater.png' alt='seater image' width='500' height='400'/>
+        <Image src='/Images/singleseater.png' alt='seater image' width='500' height='400'/>
       </div>
     </div>
 
