@@ -118,26 +118,26 @@ const page = () => {
       </div>
       </div>
 
-      <div className="bg-[#FAF3EA] py-20 px-10 flex justify-between gap-6">
+      <div className="bg-[#FAF3EA] py-20 px-40 flex justify-between gap-6">
         <div className="flex gap-4">
             
             <div>
                 <h5 className="font-poppins font-bold text-[24px]">Free Delivery</h5>
-                <p className="text-[#898989]">For all oders over $50, consectetur adipim scing elit.</p>
+                <p className="text-[#898989] w-[250px]">For all oders over $50, consectetur adipim scing elit.</p>
             </div>
         </div>
         <div className="flex gap-4">
           
             <div>
                 <h5 className="font-poppins font-bold text-[24px]">90 Days Return</h5>
-                <p className="text-[#898989]">If goods have problems, consectetur adipim scing elit.</p>
+                <p className="text-[#898989] w-[250px]">If goods have problems, consectetur adipim scing elit.</p>
             </div>
         </div>
         <div className="flex gap-4">
   
             <div>
                 <h5 className="font-poppins font-bold text-[24px]">Secure Payment</h5>
-                <p className="text-[#898989]">100% secure payment, consectetur adipim scing elit.</p>
+                <p className="text-[#898989] w-[250px]">100% secure payment, consectetur adipim scing elit.</p>
             </div>
         </div>
     
