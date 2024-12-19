@@ -46,13 +46,68 @@ const page = () => {
        </div>
        <div className='flex ml-[500px] gap-[10px]'>
         <p className='font-Poppins text-[16px] pt-[5px]'>Show</p>
-        <button className='text-gray-400 bg-[#FFFFFF] text-[14px] w-[30px] h-[30px]'>16</button>
+        <button className='text-gray-400 bg-[#FFFFFF] text-[14px] w-[30px] h-[30px] rounded-4'>16</button>
         <p className='font-Poppins text-[16px] pt-[5px]'>Sort by</p>
-        <button className='text-gray-400 bg-[#FFFFFF] text-[14px] w-[150px] h-[30px]'>Default</button>
+        <button className='text-gray-400 bg-[#FFFFFF] text-[14px] w-[150px] h-[30px] rounded-4'>Default</button>
        </div>
 
+     
+      </div> 
+       <div className='container w-[1250px] h-[1400px] bg-white'>
+       <div className='grid grid-rows-4 grid-cols-4 pt-10 bg-black gap-10 ml-[40px] w-[1350px] h-[1200px]'>
+        <div>
+          <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div> <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
 
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+        <div>
+        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        </div>
+
+        </div>
       </div>
+
+
       <div className="bg-[#FAF3EA] py-20 px-40 flex justify-between gap-6">
         <div className="flex gap-4">
             
@@ -75,6 +130,7 @@ const page = () => {
                 <p className="text-[#898989] w-[250px]">100% secure payment, consectetur adipim scing elit.</p>
             </div>
         </div>
+        
         </div>
       
       <Footer/>

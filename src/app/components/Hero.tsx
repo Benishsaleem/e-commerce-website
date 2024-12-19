@@ -74,7 +74,7 @@ export const Hero2 = () => {
                 <h2>Rs. 25,000.00</h2>
                 </div>
                 </div>
-                <div className='pl-[600px] pt-[60px]'>
+                <div className='pl-[650px] pt-[60px]'>
                 <div className='w-[100px] h-[20px] font-Poppins text-black'>View More </div>
                 <div className='w-[80px] h-[2px] bg-black mt-[10px]'></div>
                 </div>
