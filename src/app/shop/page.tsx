@@ -54,54 +54,85 @@ const page = () => {
      
       </div> 
        <div className='container w-[1250px] h-[1400px] bg-white'>
-       <div className='grid grid-rows-4 grid-cols-4 pt-10 bg-black gap-10 ml-[40px] w-[1350px] h-[1200px]'>
+       <div className='grid grid-rows-4 grid-cols-4 pt-10 gap-10 ml-[100px] w-[1300px] h-[1200px]'>
         <div>
           <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+          <p className='font-Poppins font-medium text-[12px] h-[20px]'>Trenton modular sofa_3</p>
+          <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
         <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <Image src='/Images/S0.png' alt='dining' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Granite dining table with dining chair</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
         <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <Image src='/Images/S00.png' alt='outdoor table' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Outdoor bar table and stool</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
         <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <Image src='/Images/bed1.png' alt='bed2' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Plain console with teak mirror</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
         <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <Image src='/Images/S1.png' alt='table pic' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Grain coffee table</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
-        <div> <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
-        </div>
-        <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
-        </div>
-        <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <div> <Image src='/Images/S2.png' alt='table pic' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Kent coffee table</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
         <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <Image src='/Images/S3.png' alt='table pic' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Round coffee table_color 2</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
         <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <Image src='/Images/S4.png' alt='table pic' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Reclaimed teak coffee table</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
         <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <Image src='/Images/S5.png' alt='table pic' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Plain console_</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
         <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <Image src='/Images/S6.png' alt='cupboard' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Reclaimed teak Sideboard </p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
         <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
-        </div>
-
-        <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <Image src='/Images/S7.png' alt='table chairs' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>SJP_0825</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
         <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <Image src='/Images/S8.png' alt='table chairs' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Bella chair and table</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
         <div>
-        <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
+        <Image src='/Images/S9.png' alt='table' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Granite square side table</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
+        </div>
+        <div>
+        <Image src='/Images/Sofaset2.png' alt='sofa set' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Asgaard sofa</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
+        </div>
+        <div>
+        <Image src='/Images/S11.png' alt='sofa set' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Maya sofa three seater</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
+        </div>
+        <div>
+        <Image src='/Images/S12.png' alt='sofa set' width='200' height='200'/>
+        <p className='font-Poppins font-medium text-[12px] h-[20px]'>Outdoor sofa set</p>
+        <h2 className='font-Poppins font-medium'>Rs. 25,000.00</h2>
         </div>
 
         </div>
