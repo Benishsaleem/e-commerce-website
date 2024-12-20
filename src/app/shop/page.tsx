@@ -41,7 +41,7 @@ const page = () => {
        <FaVectorSquare className='w-[18px] h-[18px] pt-[5px] ml-[20px]'/>
        <BsViewList className='w-[20px] h-[20px] pt-[5px] ml-[20px]'/>
        <PiLineVerticalThin className='w-[30px] h-[30px] ml-[18px] mt-[-2px]'/>
-       <div className='ml-[30px]'>
+       <div className='ml-[80px]'>
         <p className='font-Poppins font-medium text-[12px] w-[150px] h-[20px] pt-[4px]'>Showing 1–16 of 32 results</p>
        </div>
        <div className='flex ml-[500px] gap-[10px]'>
@@ -54,7 +54,7 @@ const page = () => {
      
       </div> 
        <div className='container w-[1200px] h-[1400px] bg-white'>
-       <div className='grid grid-rows-4 grid-cols-4 pt-10 pl-[200px] gap-10 w-[1150px] h-[1200px] justify-center'>
+       <div className='grid grid-rows-4 grid-cols-4 pt-10 pl-[200px] gap-10 w-[1200px] h-[1200px] justify-center'>
         <div>
           <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
           <p className='font-Poppins font-medium text-[12px] h-[20px]'>Trenton modular sofa_3</p>
