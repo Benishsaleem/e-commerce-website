@@ -42,12 +42,12 @@ const page = () => {
        <BsViewList className='w-[20px] h-[20px] pt-[5px] ml-[20px]'/>
        <PiLineVerticalThin className='w-[30px] h-[30px] ml-[18px] mt-[-2px]'/>
        <div className='ml-[20px]'>
-        <p className='font-Poppins text-[12px] pt-[4px]'>Showing 1–16 of 32 results</p>
+        <p className='font-Poppins text-[12px] w-[150px] h-[18px] pt-[4px]'>Showing 1–16 of 32 results</p>
        </div>
        <div className='flex ml-[500px] gap-[10px]'>
-        <p className='font-Poppins text-[14px] pt-[5px]'>Show</p>
+        <p className='font-Poppins text-[14px] pt-[5px] w-[30px] h-[18px]'>Show</p>
         <button className='text-gray-400 bg-[#FFFFFF] text-[14px] w-[30px] h-[30px] rounded-4'>16</button>
-        <p className='font-Poppins text-[14px] pt-[5px]'>Sort by</p>
+        <p className='font-Poppins text-[14px] pt-[5px] w-60px] h-[18px]'>Sort by</p>
         <button className='text-gray-400 bg-[#FFFFFF] text-[14px] w-[150px] h-[30px] rounded-4'>Default</button>
        </div>
 
