@@ -41,7 +41,7 @@ const page = () => {
        <FaVectorSquare className='w-[18px] h-[18px] pt-[5px] ml-[20px]'/>
        <BsViewList className='w-[20px] h-[20px] pt-[5px] ml-[20px]'/>
        <PiLineVerticalThin className='w-[30px] h-[30px] ml-[18px] mt-[-2px]'/>
-       <div className='ml-[20px]'>
+       <div className='ml-[30px]'>
         <p className='font-Poppins font-medium text-[12px] w-[150px] h-[20px] pt-[4px]'>Showing 1–16 of 32 results</p>
        </div>
        <div className='flex ml-[500px] gap-[10px]'>
