@@ -47,14 +47,14 @@ const page = () => {
        <div className='flex ml-[500px] gap-[10px]'>
         <p className='font-Poppins text-[14px] pt-[5px] w-[30px] h-[18px]'>Show</p>
         <button className='text-gray-400 bg-[#FFFFFF] text-[14px] w-[30px] h-[30px] rounded-4'>16</button>
-        <p className='font-Poppins text-[14px] pt-[5px] w-60px] h-[18px]'>Sort by</p>
+        <p className='font-Poppins text-[14px] pt-[5px] w-[70px] h-[18px]'>Sort by</p>
         <button className='text-gray-400 bg-[#FFFFFF] text-[14px] w-[150px] h-[30px] rounded-4'>Default</button>
        </div>
 
      
       </div> 
-       <div className='container w-[1250px] h-[1400px] bg-white'>
-       <div className='grid grid-rows-4 grid-cols-4 pt-10 gap-10 w-[1200px] h-[1200px]'>
+       <div className='container w-[1200px] h-[1400px] bg-white'>
+       <div className='grid grid-rows-4 grid-cols-4 pt-10 pl-[200px] gap-10 w-[1150px] h-[1200px] justify-center'>
         <div>
           <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
           <p className='font-Poppins font-medium text-[12px] h-[20px]'>Trenton modular sofa_3</p>
