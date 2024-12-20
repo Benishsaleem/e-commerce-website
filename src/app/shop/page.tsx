@@ -42,7 +42,7 @@ const page = () => {
        <BsViewList className='w-[20px] h-[20px] pt-[5px] ml-[20px]'/>
        <PiLineVerticalThin className='w-[30px] h-[30px] ml-[18px] mt-[-2px]'/>
        <div className='ml-[20px]'>
-        <p className='font-Poppins text-[12px] w-[150px] h-[18px] pt-[4px]'>Showing 1–16 of 32 results</p>
+        <p className='font-Poppins font-medium text-[12px] w-[150px] h-[20px] pt-[4px]'>Showing 1–16 of 32 results</p>
        </div>
        <div className='flex ml-[500px] gap-[10px]'>
         <p className='font-Poppins text-[14px] pt-[5px] w-[30px] h-[18px]'>Show</p>
@@ -54,7 +54,7 @@ const page = () => {
      
       </div> 
        <div className='container w-[1250px] h-[1400px] bg-white'>
-       <div className='grid grid-rows-4 grid-cols-4 pt-10 gap-10 w-[1300px] h-[1200px]'>
+       <div className='grid grid-rows-4 grid-cols-4 pt-10 gap-10 w-[1200px] h-[1200px]'>
         <div>
           <Image src='/Images/bed.png' alt='bed' width='200' height='200'/>
           <p className='font-Poppins font-medium text-[12px] h-[20px]'>Trenton modular sofa_3</p>
