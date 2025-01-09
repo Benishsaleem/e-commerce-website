@@ -1,28 +1,40 @@
-"use client"
-import React from 'react'
+"use client";
+import React from "react";
 import { FaRegUser } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa6";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import Link from 'next/link';
+import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className='flex gap-[150px] w-full relative h-[80px] bg-[#FBEBB5]'>
-        <ul className='flex gap-[60px] bg-red w-[217px] h-[24px] px-[400px] py-[25px] font-Poppins'>
-           <Link href='/'><li  className='w-[48px] h-[24px] text-[16px] font-normal'>Home</li></Link>
-           <Link href='/shop'> <li className='w-[42px] h-[24px] text-[16px] font-normal'>Shop</li></Link>
-           <Link href='/about'> <li className='w-[49px] h-[24px] text-[16px] font-normal'>About</li></Link>
-           <Link href='/contact'><li className='w-[66px] h-[24px] text-[16px] font-normal'>Contact</li></Link>
-        </ul>
-        <div className='flex gap-[40px] py-[30px] h-[28px]'>
-               <FaRegUser />
-               <FiSearch />
-               <FaRegHeart />
-               <AiOutlineShoppingCart />
-        </div>
-    </div>
-  )
-}
+    <div className="container flex flex-wrap items-center lg:pl-[400px] lg:gap-[200px] w-full h-[80px] bg-[#FBEBB5] px-4">
 
-export default Header
+      <ul className="flex flex-wrap gap-4 md:gap-[60px] md:justify-center font-Poppins">
+        <Link href="/">
+          <li className="text-[16px] font-normal">Home</li>
+        </Link>
+        <Link href="/shop">
+          <li className="text-[16px] font-normal">Shop</li>
+        </Link>
+        <Link href="/about">
+          <li className="text-[16px] font-normal">About</li>
+        </Link>
+        <Link href="/contact">
+          <li className="text-[16px] font-normal">Contact</li>
+        </Link>
+      </ul>
+
+    
+      <div className="flex gap-6">
+        <FaRegUser className="text-[20px] md:text-[24px]" />
+        <FiSearch className="text-[20px] md:text-[24px]" />
+        <FaRegHeart className="text-[20px] md:text-[24px]" />
+        <AiOutlineShoppingCart className="text-[20px] md:text-[24px]" />
+      </div>
+    </div>
+  );
+};
+
+export default Header;
+
