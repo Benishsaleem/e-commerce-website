@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="container flex flex-wrap items-center lg:pl-[400px] lg:gap-[200px] w-full h-[80px] bg-[#FBEBB5] px-4">
+    <div className="flex flex-wrap items-center lg:pl-[400px] lg:gap-[200px] sm:gap-20 w-full h-[80px] bg-[#FBEBB5] px-4">
 
       <ul className="flex flex-wrap gap-4 md:gap-[60px] md:justify-center font-Poppins">
         <Link href="/">

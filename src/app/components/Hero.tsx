@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="container flex flex-wrap gap-6 bg-[#FBEBB5] w-full relative h-auto px-4 py-8 md:h-[600px]">
+    <div className="flex flex-wrap gap-6 bg-[#FBEBB5] w-full relative h-auto px-4 py-8">
     
       <div className="flex flex-col w-full md:w-auto md:mt-[200px] md:ml-[300px] md:text-left">
         <h1 className="font-medium font-Poppins text-[28px] md:text-[44px] lg:w-[300px]">
@@ -21,7 +21,7 @@ const Hero = () => {
           src="/Images/singleseater.png"
           alt="seater image"
           width={500}
-          height={600}
+          height={400}
           className="max-w-full h-auto"
         />
       </div>
@@ -33,7 +33,7 @@ export default Hero;
 
 export const Hero2 = () => {
   return (
-    <div className="container flex flex-wrap gap-10 justify-center items-center bg-[#ffefef] w-full relative py-10 md:gap-20 md:h-[550px]">
+    <div className="flex flex-wrap gap-10 justify-center items-center bg-[#ffefef] w-full relative py-10 md:gap-20 md:h-[550px]">
     
       <div className="flex flex-col items-center md:items-start text-center md:text-left">
         <Image
@@ -71,7 +71,7 @@ export const Hero2 = () => {
 
 export const Hero3 = () => {
   return (
-    <div className="container flex flex-col w-full relative bg-[#FFFFFF] py-10">
+    <div className="flex flex-col w-full relative bg-[#FFFFFF] py-10">
       {/* Header Section */}
       <div className="text-center px-4">
         <h1 className="font-medium font-Poppins text-black text-[20px] md:text-[25px]">
@@ -166,7 +166,7 @@ export const Hero3 = () => {
 
 export const Hero4 = () => {
   return (
-    <div className="container w-full relative bg-[#FFF9E5] py-10">
+    <div className="w-full relative bg-[#FFF9E5] py-10">
       {/* Wrapper for Content */}
       <div className="flex flex-col lg:flex-row items-center lg:justify-between px-4 lg:px-20">
         {/* Image Section */}
@@ -198,7 +198,7 @@ export const Hero4 = () => {
 };
 export const Hero5 = () => {
   return (
-    <div className="container w-full bg-[#FFFFFF] text-center py-10">
+    <div className="w-full bg-[#FFFFFF] text-center py-10">
       {/* Header Section */}
       <div>
         <h1 className="text-[20px] lg:text-[25px] font-medium font-Poppins text-black">
@@ -269,7 +269,7 @@ export const Hero6 = () => {
   <div className="h-[313px] w-full relative ">
           <Image
             src="/Images/herobottom.png"
-            width={1280}
+            width={1400}
             height={100}
             className="absolute h-full"
             alt="bottom"
