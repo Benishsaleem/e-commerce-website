@@ -30,29 +30,41 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#FAF3EA] py-20 px-40 flex justify-between gap-6">
-        <div className="flex gap-4">
-            
-            <div>
-                <h5 className="font-poppins font-bold text-[24px]">Free Delivery</h5>
-                <p className="text-[#898989] w-[250px]">For all oders over $50, consectetur adipim scing elit.</p>
-            </div>
-        </div>
-        <div className="flex gap-4">
-          
-            <div>
-                <h5 className="font-poppins font-bold text-[24px]">90 Days Return</h5>
-                <p className="text-[#898989] w-[250px]">If goods have problems, consectetur adipim scing elit.</p>
-            </div>
-        </div>
-        <div className="flex gap-4">
-  
-            <div>
-                <h5 className="font-poppins font-bold text-[24px]">Secure Payment</h5>
-                <p className="text-[#898989] w-[250px]">100% secure payment, consectetur adipim scing elit.</p>
-            </div>
-        </div>
-        </div>
+      <div className="bg-[#FAF3EA] py-10 px-6 lg:py-20 lg:px-40">
+  <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-6">
+    {/* Free Delivery Section */}
+    <div className="flex gap-4 items-start">
+      <div>
+        <h5 className="font-poppins font-bold text-[20px] lg:text-[24px]">Free Delivery</h5>
+        <p className="text-[#898989] w-full lg:w-[250px] text-[14px] lg:text-[16px]">
+          For all orders over $50, consectetur adipiscing elit.
+        </p>
+      </div>
+    </div>
+
+    {/* 90 Days Return Section */}
+    <div className="flex gap-4 items-start">
+      <div>
+        <h5 className="font-poppins font-bold text-[20px] lg:text-[24px]">90 Days Return</h5>
+        <p className="text-[#898989] w-full lg:w-[250px] text-[14px] lg:text-[16px]">
+          If goods have problems, consectetur adipiscing elit.
+        </p>
+      </div>
+    </div>
+
+    {/* Secure Payment Section */}
+    <div className="flex gap-4 items-start">
+      <div>
+        <h5 className="font-poppins font-bold text-[20px] lg:text-[24px]">Secure Payment</h5>
+        <p className="text-[#898989] w-full lg:w-[250px] text-[14px] lg:text-[16px]">
+          100% secure payment, consectetur adipiscing elit.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
     
       <Footer/>
       

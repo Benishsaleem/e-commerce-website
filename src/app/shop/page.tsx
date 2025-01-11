@@ -64,7 +64,7 @@ const page = () => {
     </button>
   </div>
      </div>
-     <div className="items-center mx-auto p-4 bg-white">
+     <div className="justify-center items-center mx-auto p-4 bg-white">
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-10">
     <div>
       <Image src="/Images/bed.png" alt="bed" width={200} height={200} />
