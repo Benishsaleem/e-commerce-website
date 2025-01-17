@@ -7,6 +7,7 @@ import { BsViewList } from "react-icons/bs";
 import { PiLineVerticalThin } from "react-icons/pi";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Link from 'next/link';
 
 const page = () => {
   return (
@@ -25,10 +26,9 @@ const page = () => {
             Shop
           </h2>
           <div className="flex ">
-            <p className="font-poppins font-semibold flex items-center">
-              Home
-              <IoChevronForwardSharp/>
-            </p>
+          <Link href="/" className="font-poppins font-semibold flex items-center">
+          Home <IoChevronForwardSharp />
+        </Link>
             <span>Shop</span>
           </div>
         </div>

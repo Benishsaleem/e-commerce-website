@@ -6,6 +6,7 @@ import { IoChevronForwardSharp } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdAccessTimeFilled } from "react-icons/md";
+import Link from "next/link";
 const page = () => {
   return (
     <div>
@@ -23,10 +24,9 @@ const page = () => {
             Contact
           </h2>
           <div className="flex ">
-            <p className="font-poppins font-semibold flex items-center">
-              Home
-              <IoChevronForwardSharp />
-            </p>
+          <Link href="/" className="font-poppins font-semibold flex items-center">
+          Home <IoChevronForwardSharp />
+        </Link>
             <span>Contact</span>
           </div>
         </div>
@@ -114,7 +114,7 @@ const page = () => {
           placeholder="Hi! I’d like to ask about..."
         ></textarea>
       </div>
-      <button className="w-full lg:w-[222px] py-3 font-semibold border-black border-[1.0px]   text-black rounded-md">
+      <button className="w-full lg:w-[222px] py-3 font-medium border-black border-[1.0px]   text-black rounded-md">
         Submit
       </button>
     </div>
