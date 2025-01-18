@@ -1,10 +1,13 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { FaRegUser } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa6";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Link from "next/link";
+
+
+
 
 const Header = () => {
   return (
@@ -30,8 +33,11 @@ const Header = () => {
         <FaRegUser className="text-[20px] md:text-[24px]" />
         <FiSearch className="text-[20px] md:text-[24px]" />
         <FaRegHeart className="text-[20px] md:text-[24px]" />
-        <AiOutlineShoppingCart className="text-[20px] md:text-[24px]" />
+       <Link href="/cart">
+       <AiOutlineShoppingCart className="text-[20px] md:text-[24px]" /></Link> 
       </div>
+      
+      
     </div>
   );
 };
